@@ -15,10 +15,12 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   /* background-color: var(--vl-gray); */
+  overflow-x: hidden;
 }
 a:link,
 a:visited {
@@ -74,6 +76,7 @@ button:hover {
   pointer-events: none;
   visibility: hidden;
 }
+.btn,
 .btn:link,
 .btn:visited {
   color: var(--vl-gray);
@@ -84,7 +87,7 @@ button:hover {
   display: inline-block;
   border-radius: 3rem;
   transition: all 0.3s;
-  box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.2);
 }
 .btn:hover,
 .btn:active {
