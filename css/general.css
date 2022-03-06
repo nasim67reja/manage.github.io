@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bright-red: hsl(12, 88%, 59%);
+  --dk-blue: hsl(228, 39%, 23%);
+  /* neutral */
+  --dkgrayish-blue: hsl(227, 12%, 61%);
+  --vdk-blue: hsl(233, 12%, 13%);
+  --vp-red: hsl(13, 100%, 96%);
+  --vl-gray: hsl(0, 0%, 98%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: var(--vl-gray);
+}
+a:link,
+a:visited,
+p {
+  color: var(--dk-blue);
+}
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 117rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+}
+.grid-1-cols {
+  grid-template-columns: 1fr;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+button:hover {
+  cursor: pointer;
+}
+
+.show {
+  display: block !important;
+}
+.none {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.btn:link,
+.btn:visited {
+  color: var(--vl-gray);
+  background: var(--bright-red);
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 1.4rem 3.2rem;
+  display: inline-block;
+  border-radius: 3rem;
+  transition: all 0.3s;
+  box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.28);
+}
+.btn:hover,
+.btn:active {
+  opacity: 0.7;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--dk-blue);
+  font-weight: 400;
+}
+.heading-primary {
+  font-size: 5rem;
+  margin-bottom: 4rem;
+}
+.description {
+  margin-bottom: 3rem;
+  font-size: 1.7rem;
+  line-height: 1.6;
+}
+
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright Red: hsl(12, 88%, 59%)
+Dark Blue: hsl(228, 39%, 23%)
+
+### Neutral
+
+Dark Grayish Blue: hsl(227, 12%, 61%)
+Very Dark Blue: hsl(233, 12%, 13%)
+Very Pale Red: hsl(13, 100%, 96%)
+Vary Light Gray: hsl(0, 0%, 98%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
+- Weights: 400, 500, 700
+
+## Icons
+
+For the social icons, you can use the icons provided or a font icon library. Some suggestions for font icon libraries can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
+*/
