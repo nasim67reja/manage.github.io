@@ -1,6 +1,5 @@
 /* Header */
 .header {
-  background-color: #fff;
   height: 8rem;
   padding: 2rem 0 3rem 0;
 }
@@ -40,4 +39,20 @@
 .main-nav-link:active {
   /* trick */
   color: var(--dkgrayish-blue);
+}
+
+/* //////////////////////// */
+/* Section Hero */
+/* //////////////////////// */
+.section-hero {
+  margin-top: 9rem;
+}
+
+.hero {
+  gap: 12rem;
+  align-items: center;
+  grid-template-columns: 44fr 56fr;
+}
+.hero-img {
+  width: 100%;
 }
