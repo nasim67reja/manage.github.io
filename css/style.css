@@ -98,12 +98,13 @@
 /* //////////////////////// */
 /* Section customer */
 /* //////////////////////// */
+.section-customer {
+  margin-bottom: 17rem;
+}
 .section-customer h2 {
   text-align: center;
 }
 .slider-section {
-  max-width: 144rem;
-  /* overflow-x: hidden; */
   overflow-x: auto;
 }
 .slider-section::-webkit-scrollbar {
@@ -112,23 +113,38 @@
 
 .slider {
   max-width: 54rem;
-  height: 24rem;
-  margin: 0 auto;
+  height: 31rem;
   margin-bottom: 4.5rem;
   position: relative;
 }
 
 .slide {
   border-radius: 5px;
-  margin: 0 3rem;
   position: absolute;
+  height: 31rem;
   top: 0;
   width: 100%;
-  height: 24rem;
-  transition: all 1s;
-  background-color: green;
 }
 
+.slide img {
+  width: 7rem;
+  transform: translate(23rem, 4rem);
+}
+.slide-content {
+  background-color: var(--vl-gray);
+  padding: 8rem 4rem;
+  height: 24rem;
+}
+.slide h3,
+.slide blockquote {
+  text-align: center;
+}
+.slide blockquote {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: var(--dkgrayish-blue);
+}
 /* .slider {
   max-height: 120px;
   display: flex;
