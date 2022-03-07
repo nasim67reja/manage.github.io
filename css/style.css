@@ -145,18 +145,34 @@
   line-height: 1.7;
   color: var(--dkgrayish-blue);
 }
-/* .slider {
-  max-height: 120px;
-  display: flex;
-  overflow-x: auto;
-  overflow-x: auto;
+/* //////////////////////// */
+/* Section cta */
+/* //////////////////////// */
+.section-cta {
+  background-color: var(--bright-red);
+  padding: 7rem 0;
 }
-.slider::-webkit-scrollbar {
-  width: 0px;
+.cta {
+  justify-items: end;
+  align-items: center;
 }
-.slide {
-  min-width: 110px;
-  height: 110px;
-  background-color: green;
-  margin: 0 3rem;
-} */
+.section-cta h2 {
+  color: #fff;
+  font-size: 3.7rem;
+}
+.section-cta .btn {
+  max-width: 14rem;
+  height: fit-content;
+  background-color: var(--vl-gray);
+  color: var(--bright-red);
+  font-weight: 500;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+/* //////////////////////// */
+/* Footer*/
+/* //////////////////////// */
+.footer {
+  background-color: var(--dk-blue);
+}
