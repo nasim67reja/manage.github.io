@@ -1,0 +1,47 @@
+@media (max-width: 74em) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media (max-width: 65.5em) {
+  html {
+    font-size: 52%;
+  }
+}
+@media (max-width: 61em) {
+  html {
+    font-size: 48%;
+  }
+}
+@media (max-width: 56em) {
+  html {
+    font-size: 42%;
+  }
+}
+@media (max-width: 49.2em) {
+  html {
+    font-size: 38%;
+  }
+}
+@media (max-width: 44.2em) {
+  html {
+    font-size: 34%;
+  }
+}
+@media (max-width: 39.6em) {
+  html {
+    font-size: 62.5%;
+  }
+  .main-header {
+    background-size: 89% 30%;
+    /* background-position: 800% -8%; */
+    background-position: 200% 10%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-img-box {
+    grid-row: 1;
+  }
+}

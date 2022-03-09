@@ -1,3 +1,10 @@
+/* Main Header */
+.main-header {
+  background: url("../images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 62% 107%;
+  background-position: 137% 313%;
+}
 /* Header */
 .header {
   height: 8rem;
@@ -59,6 +66,12 @@
 /* //////////////////////// */
 /* Section About */
 /* //////////////////////// */
+#about {
+  background: url("../images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 68% 75%;
+  background-position: -133% 102%;
+}
 .section-about {
   margin: 11rem 0 15rem 0;
 }
@@ -149,7 +162,11 @@
 /* Section cta */
 /* //////////////////////// */
 .section-cta {
-  background-color: var(--bright-red);
+  background: url("../images/bg-simplify-section-desktop.svg"),
+    var(--bright-red);
+  background-size: 118% 136%;
+  background-repeat: no-repeat;
+  background-position: -43% 99%;
   padding: 7rem 0;
 }
 .cta {
