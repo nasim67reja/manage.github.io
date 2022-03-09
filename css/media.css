@@ -117,4 +117,122 @@
     padding: 0;
     margin-bottom: 2.5rem;
   }
+  /* section about */
+  #about {
+    background: none;
+  }
+  .section-about {
+    margin: 0 0 8rem 0;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0;
+  }
+  .about-text-box {
+    text-align: center;
+    padding: 0 2rem;
+  }
+  .about-text-box p {
+    font-size: 1.6rem;
+  }
+  .heading-secondary {
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+  }
+  .column-row {
+    gap: 0;
+  }
+  .column-row h3 {
+    background: url("../images/bg-tablet-pattern.svg");
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: 440% 200%;
+    background-position: 70% 18%;
+    padding-left: 2rem;
+  }
+  .column-row .btn {
+    margin: 0 1.7rem;
+    transform: translate(13px, -5px);
+  }
+  .column-row p {
+    grid-column: 1/-1;
+    padding: 0 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  /* section customer */
+  .section-customer {
+    margin-bottom: 4rem;
+  }
+  .slider {
+    max-width: 37rem;
+    padding-left: 2rem;
+  }
+  .slide img {
+    transform: translate(13rem, 4rem);
+  }
+  .slide-content {
+    height: 27rem;
+    padding: 8rem 2rem 0rem 2rem;
+  }
+  .slide blockquote {
+    font-size: 1.5rem;
+  }
+  /* section cta */
+  .section-cta {
+    padding: 10rem 0;
+    background: url("../images/bg-simplify-section-mobile.svg"),
+      var(--bright-red);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2rem;
+    text-align: center;
+  }
+  .cta h2 {
+    font-size: 3.7rem;
+  }
+  /* footer */
+  .footer {
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .footer .grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    justify-content: center;
+    justify-items: center;
+  }
+  .first-column {
+    grid-column: 1/-1;
+    flex-direction: column-reverse;
+    gap: 5rem;
+    align-items: center;
+  }
+  .second-column {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .third-column {
+    grid-row: 2;
+  }
+  .fourth-column {
+    grid-column: 1/-1;
+    grid-row: 1;
+  }
+  .social-icon-list {
+    gap: 3rem;
+  }
+  .social-icon svg {
+    width: 3.2rem;
+  }
+  .copyright {
+    position: absolute;
+    bottom: 2rem;
+    left: 4rem;
+  }
 }
