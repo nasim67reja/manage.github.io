@@ -83,7 +83,7 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     color: var(--dk-blue);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .header-btn-box {
@@ -109,7 +109,7 @@
     background-position: -286% 86%;
   }
   .heading-primary {
-    font-size: 3.7rem;
+    font-size: 3.6rem;
     margin-bottom: 1rem;
     line-height: 1.1;
   }
@@ -149,7 +149,9 @@
     background-repeat: no-repeat;
     background-size: 440% 200%;
     background-position: 70% 18%;
-    padding-left: 2rem;
+    padding-left: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: -2rem;
   }
   .column-row .btn {
     margin: 0 1.7rem;
@@ -194,7 +196,7 @@
     text-align: center;
   }
   .cta h2 {
-    font-size: 3.7rem;
+    font-size: 3.6rem;
   }
   /* footer */
   .footer {
