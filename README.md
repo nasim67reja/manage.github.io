@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/nasim67reja/manage.github.io)
-- Live Site URL: [Live link](https://your-live-site-url.com)
+- Live Site URL: [Live link](https://nasim67reja.github.io/manage.github.io/)
 
 ### Built with
 
@@ -50,6 +50,6 @@ By building this project I have learned how to create horzonlat scroll page layo
 
 ## Author
 
-- Website - [Nasim Reja](https://www.your-site.com)
+- Website - [Nasim Reja](https://www.linkedin.com/in/nasim-reja-aa388b212/)
 - Frontend Mentor - [@nasim67reja](https://www.frontendmentor.io/profile/@nasim67reja)
 - Twitter - [@Nasimreja97](https://www.twitter.com/@Nasimreja97)
